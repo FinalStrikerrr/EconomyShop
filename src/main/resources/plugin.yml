@@ -1,0 +1,30 @@
+name: EconomyShop
+version: 1.0.0
+main: com.avenoxstudio.economyshop.EconomyShop
+api-version: '1.20'
+description: Connected shop, sell, and player buy-order economy.
+softdepend: [Vault, PlaceholderAPI]
+commands:
+  shop: {description: Open the EconomyShop, permission: economyshop.shop}
+  sell: {description: Open the sell menu, permission: economyshop.sell}
+  sellhand: {description: Sell the item in your main hand, permission: economyshop.sell}
+  sellall: {description: Sell eligible inventory items, permission: economyshop.sell}
+  orders: {description: Browse player buy orders, permission: economyshop.orders}
+  order: {description: Create and manage buy orders, permission: economyshop.orders}
+  sellhistory: {description: View recent sales, permission: economyshop.history}
+  balance: {description: View your balance, permission: economyshop.balance}
+  worth: {description: View configured item values, permission: economyshop.worth}
+  economyshop: {description: EconomyShop administration and help, permission: economyshop.use}
+permissions:
+  economyshop.use: {default: true}
+  economyshop.shop: {default: true}
+  economyshop.sell: {default: true}
+  economyshop.orders: {default: true}
+  economyshop.orders.create: {default: true}
+  economyshop.orders.manage: {default: true}
+  economyshop.history: {default: true}
+  economyshop.balance: {default: true}
+  economyshop.worth: {default: true}
+  economyshop.admin: {default: op}
+  economyshop.admin.reload: {default: op}
+  economyshop.admin.diagnostics: {default: op}

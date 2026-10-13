@@ -1,0 +1,41 @@
+categories:
+  blocks:
+    name: "&eBlocks"
+    icon: BRICKS
+    items: [STONE, COBBLESTONE, DIRT, OAK_LOG, GLASS]
+  ores:
+    name: "&bOres & Minerals"
+    icon: DIAMOND
+    items: [COAL, IRON_INGOT, GOLD_INGOT, DIAMOND, EMERALD, REDSTONE, LAPIS_LAZULI]
+  farming:
+    name: "&aFarming"
+    icon: WHEAT
+    items: [WHEAT, CARROT, POTATO, SUGAR_CANE, BAMBOO, CACTUS]
+  food:
+    name: "&6Food"
+    icon: COOKED_BEEF
+    items: [BREAD, APPLE, COOKED_BEEF, GOLDEN_CARROT]
+  nether:
+    name: "&cNether"
+    icon: NETHERRACK
+    items: [NETHERRACK, QUARTZ, BLAZE_ROD, GLOWSTONE_DUST]
+  end:
+    name: "&dEnd"
+    icon: ENDER_PEARL
+    items: [ENDER_PEARL, END_STONE, CHORUS_FRUIT]
+  combat:
+    name: "&cCombat & Gear"
+    icon: IRON_SWORD
+    items: [ARROW, SHIELD, IRON_SWORD, DIAMOND_SWORD]
+  brewing:
+    name: "&5Brewing"
+    icon: BREWING_STAND
+    items: [BLAZE_POWDER, GLASS_BOTTLE, NETHER_WART, FERMENTED_SPIDER_EYE]
+  redstone:
+    name: "&4Redstone"
+    icon: REDSTONE
+    items: [REDSTONE, REPEATER, COMPARATOR, PISTON]
+  misc:
+    name: "&fMiscellaneous"
+    icon: CHEST
+    items: [CHEST, STRING, BONE, LEATHER, PAPER]

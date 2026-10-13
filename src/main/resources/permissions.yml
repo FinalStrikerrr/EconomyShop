@@ -1,0 +1,3 @@
+# Command permissions are also declared in plugin.yml.
+admin: economyshop.admin
+reload: economyshop.admin.reload

@@ -1,0 +1,50 @@
+# Auction House defaults. These settings are a configuration specification until
+# the Auction House services and /ah command are implemented.
+enabled: false
+browser:
+  title: '&8Auction House'
+  size: 54
+  page-size: 45
+listing:
+  duration-hours: 48
+  max-active-per-player: 10
+  min-price: '1.00'
+  max-price: '1000000000.00'
+  max-stack-quantity: 64
+  listing-fee: '0.00'
+  seller-tax-percent: 0.0
+  buyer-fee-percent: 0.0
+  allow-self-purchase: false
+  allow-metadata-items: false
+  allow-container-items: false
+  allowed-materials: []
+  blocked-materials:
+    - AIR
+    - BEDROCK
+    - BARRIER
+matching:
+  compare-material: true
+  compare-display-name: true
+  compare-lore: true
+  compare-enchantments: true
+  compare-damage: true
+  automatic-order-matching: false
+  auction-to-order-routing: false
+search:
+  enabled: true
+  max-query-length: 48
+sort:
+  default: NEWEST
+  modes:
+    - NEWEST
+    - OLDEST
+    - LOWEST_PRICE
+    - HIGHEST_PRICE
+    - ALPHABETICAL
+    - HIGHEST_QUANTITY
+    - SOONEST_EXPIRATION
+storage:
+  offline-delivery: true
+  return-claim-required: true
+  history-retention-days: 180
+  max-transaction-retries: 3

@@ -1,0 +1,19 @@
+currency-symbol: "$"
+decimal-places: 2
+sell-all-max-items: 2304
+default-purchase-quantity: 1
+max-purchase-quantity: 2304
+orders:
+  enabled: true
+  max-active-per-player: 10
+  min-quantity: 1
+  max-quantity: 23040
+  min-unit-price: 0.01
+  max-unit-price: 1000000.00
+  expiry-hours: 168
+  allow-self-fulfillment: false
+  route-to-orders-only-when-better-than-server-price: true
+storage:
+  sqlite-file: economyshop.db
+messages:
+  prefix: "&8[&aEconomyShop&8] &r"

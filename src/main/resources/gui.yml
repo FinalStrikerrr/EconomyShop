@@ -1,0 +1,9 @@
+titles:
+  shop: "&8EconomyShop"
+  category: "&8Shop: %category%"
+  orders: "&8Player Buy Orders"
+  sell: "&8Sell Items"
+  confirm: "&8Confirm Purchase"
+  quantity: "&8Select Quantity"
+  search: "&8Shop Search"
+filler: GRAY_STAINED_GLASS_PANE

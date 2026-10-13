@@ -1,0 +1,6 @@
+vault:
+  enabled: true
+placeholderapi:
+  enabled: true
+auction-house:
+  enabled: false

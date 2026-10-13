@@ -1,0 +1,9 @@
+max-active-per-player: 10
+min-quantity: 1
+max-quantity: 23040
+min-unit-price: 0.01
+max-unit-price: 1000000
+expiry-hours: 168
+allow-self-fulfillment: false
+partial-fulfillment: true
+route-orders-before-server-sell-price: true
